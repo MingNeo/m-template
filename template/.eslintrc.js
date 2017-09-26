@@ -11,11 +11,12 @@ module.exports = {
   },
   // https://github.com/standard/standard/blob/master/docs/RULES-en.md
   extends: [
-    'standard'{{if flow}},
-    'plugin:flowtype/recommended'{{/if}}],
+    'standard'
+  ],
   // required to lint *.vue files
   plugins: [
-    'html'{{if flow}},
+    'html',
+    'vue'{{if flow}},
     "flowtype",
     "flowtype-errors"{{/if}}
   ],

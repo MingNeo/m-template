@@ -4,7 +4,7 @@
 .*/config/.*
 .*/test/.*
 [include]
-#./src/.*/*.vue
+./src/.*/*.vue
 [libs]
 flow-typed
 [options]
