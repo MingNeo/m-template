@@ -5,6 +5,7 @@
 .*/test/.*
 [include]
 ./src/.*/*.vue
+./src/.*/*.js
 [libs]
 flow-typed
 [options]
